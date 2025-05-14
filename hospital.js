@@ -123,7 +123,7 @@ class Pilha {
   fila.add_paciente("Pinulo");
 
   // Exibindo quem será o próximo a ser atendido
-  console.log(`O próximo paciente a ser atendido é: ${fila.frente}`);
+  console.log(`O próximo paciente a ser atendido é: ${fila.frente()}`);
 
   // Dois pacientes serão atendidos e seus prontuários serão adicionados à pilha
   fila.desenfileirar();                 // Saída: 🚪 'Mendes' foi atendido.
